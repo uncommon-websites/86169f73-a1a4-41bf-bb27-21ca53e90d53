@@ -16,7 +16,15 @@
 	imageSrc="/sample.png"
 	generating
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/stripe.com',
+		'https://logo.clearbit.com/asana.com',
+		'https://logo.clearbit.com/datadog.com',
+		'https://logo.clearbit.com/zendesk.com'
+	]}
+/>
 
 <Summary
 	generating
